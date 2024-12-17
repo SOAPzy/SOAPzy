@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: #ffe6e6 url('https://example.com/claveles-dibujo.jpg') no-repeat center center fixed;
+      background: #ffe6e6 url('https://example.com/tulipanes-morados-dibujo.jpg') no-repeat center center fixed;
       background-size: cover;
       margin: 0;
       padding: 0;
@@ -23,13 +23,26 @@
     .day {
       margin: 20px auto;
       padding: 15px;
-      background: rgba(255, 255, 255, 0.9);
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       max-width: 600px;
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .day:nth-child(2) {
+      background: url('https://example.com/tyler-the-creator.jpg') no-repeat center center / cover;
+    }
+    .day:nth-child(3) {
+      background: url('https://example.com/ramma-tadu.jpg') no-repeat center center / cover;
+    }
+    .day:nth-child(4) {
+      background: url('https://example.com/jaze-perdon.jpg') no-repeat center center / cover;
+    }
+    .day:nth-child(5) {
+      background: url('https://example.com/jaze-lunares.jpg') no-repeat center center / cover;
     }
     .day h2 {
-      color: #ff6666;
+      color: #ffcccc;
     }
     iframe {
       width: 100%;
@@ -52,20 +65,20 @@
 
   <section class="day">
     <h2>Día 2: Nostalgia - Ramma ft. Tadu Vázquez</h2>
-    <p>"Fragmento del verso significativo aquí"</p>
-    <iframe src="https://www.youtube.com/embed/[TuEnlaceAqui]" allowfullscreen></iframe>
+    <p>"A veces pienso en lo bonito de la nostalgia, en los momentos que nunca vuelven pero siempre quedan."</p>
+    <iframe src="https://www.youtube.com/embed/VusKtZHSNtU" allowfullscreen></iframe>
   </section>
 
   <section class="day">
     <h2>Día 3: Perdón - Jaze</h2>
-    <p>"Fragmento del verso significativo aquí"</p>
-    <iframe src="https://www.youtube.com/embed/[TuEnlaceAqui]" allowfullscreen></iframe>
+    <p>"Perdón por no saber quererte bien, por no entender a tiempo lo que valías."</p>
+    <iframe src="https://www.youtube.com/embed/28c_jRO69g8" allowfullscreen></iframe>
   </section>
 
   <section class="day">
     <h2>Día 4: Lunares - Jaze</h2>
-    <p>"Fragmento del verso significativo aquí"</p>
-    <iframe src="https://www.youtube.com/embed/[TuEnlaceAqui]" allowfullscreen></iframe>
+    <p>"Los lunares en tu piel cuentan historias que quiero descubrir."</p>
+    <iframe src="https://www.youtube.com/embed/vYyD1PUQYys" allowfullscreen></iframe>
   </section>
 </body>
 </html>
