@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
-import { BookOpen, FlaskConical, Calculator, Video, FileCheck, Shield } from "lucide-react";
-import ReconCalculator from "@/components/ReconCalculator";
+import { BookOpen, FlaskConical, Video, FileCheck, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Research Center",
-  description: "Research resources for peptide scientists: reconstitution guides, dosing calculators, safety data sheets, and video protocols. For laboratory use only.",
+  description: "Research resources for peptide scientists: reconstitution guides, safety data sheets, and video protocols. For laboratory use only.",
 };
 
 const RESOURCES = [
   { icon: BookOpen, title: "Peptide Science Library", desc: "Peer-reviewed articles, clinical studies, and literature reviews on research peptides.", href: "#" },
   { icon: FlaskConical, title: "Reconstitution Guides", desc: "Step-by-step instructions for reconstituting every lyophilized peptide in our catalog.", href: "#reconstitution" },
-  { icon: Calculator, title: "Dosing Calculator", desc: "Interactive tool for calculating research doses based on concentration and volume.", href: "#calculator" },
   { icon: Video, title: "Video Tutorials", desc: "Lab-grade video guides covering handling, storage, and reconstitution protocols.", href: "#" },
   { icon: FileCheck, title: "Certificates of Analysis", desc: "Access third-party CoAs for every batch — purity, identity, and lot traceability included.", href: "#sds" },
   { icon: Shield, title: "Safety Data Sheets", desc: "MSDS/SDS documents for safe handling of each compound in controlled laboratory environments.", href: "#sds" },
@@ -42,7 +40,7 @@ export default function ResearchPage() {
           Research Center
         </h1>
         <p className="max-w-xl mx-auto" style={{ color: "#6E6E73" }}>
-          Your scientific hub for peptide research — guides, calculators, CoAs, and protocols in one place.
+          Your scientific hub for peptide research — guides, CoAs, and protocols in one place.
         </p>
       </div>
 
@@ -102,7 +100,6 @@ export default function ResearchPage() {
                 </div>
               ))}
             </div>
-            <ReconCalculator />
           </div>
         </div>
 
